@@ -1,0 +1,414 @@
+body{
+	background-color: #F7EAC6;
+	overflow-x: scroll;
+}
+
+header{
+	background-color: green;
+	height: auto;
+	float: clear-top;
+	width: 100%;
+	overflow: hidden;
+}
+#logo{
+	
+	float: left;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	margin: auto;
+	position: absolute;
+	
+	
+}
+#logo img{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	
+}
+#titlename{
+	
+	
+	height: 100px;
+	width: 75%;
+	display: inline-block;
+	padding: 5px;
+	padding-right: 40px;
+	margin: auto;
+	float: right;
+	
+	
+}
+
+#titlename img{
+	display: block;
+	margin:auto;
+	width:100%;
+	height: 100%;
+}
+nav{
+	float: left;
+	height: 400px;
+	width: 150px;
+	background-color: red;
+	box-shadow: 10px 10px 5px #888888;
+	position: absolute;
+	margin-top:10px;
+}
+
+#navbuttons{
+	padding-top: 10px;
+	margin: auto;
+	width: 100%;
+	height: auto;
+
+}
+#navbuttons ul{
+	list-style-type: none;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+	width: 100px;
+	height: 135px;
+	padding:0;
+
+	
+}
+#navbuttons li {
+	
+	
+}
+#navbuttons ul a{
+	text-decoration: none;
+	font-size: 15px;
+	font-family:Impact;
+	color: black;
+}
+#navbuttons a:hover{
+	background-color: green;
+}
+
+#hours{
+	margin: auto;
+	width: 100%;
+	height: auto;
+	padding: 2px;
+}
+
+#hours ul{
+	list-style-type: none;
+	margin: auto;
+	margin-top: 30px;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	height: 125px;
+	padding: 0;
+}
+
+#hours ul li{
+	font-size: 15px;
+	font-family:Times New Roman;
+}
+
+#phonenum{
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	
+}
+#phonenum p {
+	margin: auto;
+	text-align: center;
+	font-family: impact;
+	font-size: 25px;
+}
+
+#contentarea {
+	float:right;
+	width: 80%;
+	height: 600px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline;
+	
+	position: relative;
+
+	
+	
+}
+section{
+	width:80%;
+	height:80%;
+	margin: auto;
+
+}
+#contentarea section img{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	
+	box-shadow: 10px 10px 5px #888888;
+}
+
+footer{
+	height: 50px;
+	width: 80%;
+	margin: auto;
+	margin-top: 200px;
+	clear: both;
+	background-color: green;
+	
+	
+}
+#footerimg1 {
+	height: 50px;
+	width: 15%;
+	float: left;
+	display: inline;
+	
+}
+
+#footerimg1 img{
+	width: 100px;
+	height: 50px;
+	margin: auto;
+	
+}
+
+#footernavbuttons {
+	padding-top: 10px;
+	margin: auto;
+	height: auto;
+	width: 80%;
+	display: inline;
+	float: right;
+	
+}
+
+#footernavbuttons ul{
+	list-style-type: none;
+	margin: auto;
+	padding: 1px;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+#footernavbuttons ul li {
+    display: inline;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#footernavbuttons ul li a{
+	text-decoration: none;
+	color: white;
+	
+	font-size: 15px;
+}
+
+#bottomfooter{
+	height: 20px;
+	width: 80%;
+	margin: auto;
+	clear: both;
+	background-color: green;
+	
+}
+#bottomfooter ul{
+	display: inline;
+	list-style-type: none;
+	margin: auto;
+	padding:auto;
+	overflow: hidden;
+	text-align: center;
+	width: 200px;
+	height: 90%;
+	float: left;
+	
+	
+}
+
+#bottomfooter ul li{
+	display: inline;
+    text-align: center;
+    padding:auto;
+	margin:auto;
+    text-decoration: none;
+	float:left;
+	color: white;
+	opacity: .4;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+}
+
+#bottomfooter ul li a{
+	text-decoration: none;
+	color: white;
+
+	font-size: 10px;
+	
+}
+
+#bottomfooter p {
+	display: inline-block;
+	color: white;
+	font-size: 10px; 
+	float:right;
+	width:80px;
+	padding:auto;
+	padding-right: 10px;
+	margin: auto;
+	margin-top: 5px;
+	text-align: right;
+	opacity: .4;
+	
+}
+
+
+@media screen and (max-width: 480px) {
+  
+  header{
+	  width:100%;
+	  height: auto;
+	  margin: auto;
+	  margin-bottom:5px;
+	  padding-right:15px;
+  }
+  #logo{
+	  width: 100%;
+	  height: 100px;
+	  margin: auto;
+	  position: relative;
+  }
+  #logo img{
+	  height: 100px;
+	  width: 100px;
+	  margin:auto;
+  }
+  #titlename{
+	  width: 100%;
+	  height: 50px;
+	  padding: 5px;
+	  margin: 5px;
+  }
+  #titlename img{
+    width: 100%;
+	height: 50px;
+	margin:auto;
+	padding: 5px;
+  }
+  
+  
+  #contentarea {
+	  position: relative;
+	  width: 100%;
+	  height: 500px;
+	  margin: auto;
+	  margin-top: 55px;
+	  padding:auto;
+  }
+  section{
+	  width:100%;
+	  height: 500px;
+	  
+  }
+  #contentarea section img{
+	  width:100%;
+	  height: 300px;
+  }
+  nav{
+	 
+	  width: 100%;
+	  height: 50px;
+	  margin: auto;
+	  padding: auto;
+	  
+	
+  }
+  #navbuttons{
+	
+	padding-top: 1px;
+	margin: auto;
+	height: 50%;
+	width: 80%;
+	display: inline;
+	background-color:blue;
+	
+	}
+	#navbuttons ul{
+		list-style-type: none;
+		margin: auto;
+		padding: 1px;
+		overflow: hidden;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+	}
+	#navbuttons ul li {
+		display: inline;
+		text-align: center;
+		padding: 2px;
+		text-decoration: none;
+		
+	}
+	#navbuttons ul a{
+		text-decoration: none;
+	}
+	#hours{
+		display: none;
+		
+	}
+
+
+	#phonenum{
+		diplay: none;
+		
+	}
+	
+  footer{
+	height: 75px;
+	width: 90%;
+	margin: auto;
+	margin-top: 700px;
+	clear: both;
+	background-color: green;
+	
+}
+	#footerimg1 img{
+	display: none;
+	
+}
+
+	#footernavbuttons{
+		width: 90%;
+		height: 75%;
+		margin: auto;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	
+		padding: 0;
+		display: inline;
+		background-color: blue;
+		
+	}
+
+
+	#bottomfooter{
+		height: 20px;
+		width: 90%;
+		margin: auto;
+		clear: both;
+		background-color: green;
+		
+	}
+}
+
