@@ -1,0 +1,120 @@
+﻿#contentarea {
+    float:right;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 200px;
+    margin-left: 150px;
+	display: inline;
+	position: relative;
+    
+}
+
+
+
+#about {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 2px;
+    
+}
+
+#about p {
+    padding-left: 10px;
+    
+    }
+
+#img1 {
+    float: right;
+    width:400px;
+    height: 300px;
+    
+}
+#img2 {
+    float: left;
+    width: 500px;
+    height: 300px;
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #contentarea {
+    
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top: 175px;
+	margin-bottom: 100px;
+
+}
+
+
+
+#about {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 1px;
+    
+}
+
+#aboutoil {
+    padding: 5px;
+    margin: auto;
+    display: block;
+    width:auto;
+    height: auto;
+    text-align: center;
+   
+    }
+
+#img1 {
+    
+    width:300px;
+    height: 200px;
+    position: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: none;
+    display: block;
+   
+    
+}
+
+    h2 {
+        width: 50%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        display: block;
+        
+    }
+
+#aboutdetail {
+    display: block;
+    width:auto;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    
+    }
+
+
+#img2 {
+    
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    float:none;
+
+}
+
+}
