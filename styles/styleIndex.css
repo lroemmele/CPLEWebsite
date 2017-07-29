@@ -1,34 +1,41 @@
 body{
-	background-color: #F7EAC6;
+	//background-color: #F7EAC6;
+    background-color:#ababab;
 	overflow-x: hidden;
-    width: 100%;
+    width: 90%;
     height: 100%;
+    margin: auto;
+  
 }
 
 header{
-	background-color: green;
+    background: #002400; /* Old browsers */
+    background: -moz-linear-gradient(left, #002400 0%, #005700 17%, #008a00 33%, #52b152 67%, #83c783 83%, #b4ddb4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #002400 0%,#005700 17%,#008a00 33%,#52b152 67%,#83c783 83%,#b4ddb4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #002400 0%,#005700 17%,#008a00 33%,#52b152 67%,#83c783 83%,#b4ddb4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002400', endColorstr='#b4ddb4',GradientType=1 ); /* IE6-9 */
 	height: auto;
     clear: both;
 	width: 100%;
 	overflow: hidden;
+    margin-top: 50px;
     
 }
 #logo{
-	
-	float: left;
-	height: 100px;
-	width: 100px;
-	display: inline-block;
-	margin: auto;
-    padding-left: 2px;
-	position: absolute;
+	height: 150px;
+	width: 150px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+
+ 
 	
 }
 #logo img{
-	display: block;
+	
 	margin: auto;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	
 }
 #titlename{
@@ -266,7 +273,7 @@ footer{
 	font-size: 10px; 
 	float:right;
 	width:80px;
-	padding:auto;
+	padding:0px;
 	padding-right: 10px;
 	margin: auto;
 	margin-top: 5px;

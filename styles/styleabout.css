@@ -5,9 +5,11 @@
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 200px;
-    margin-left: 150px;
+    margin-left: 200px;
+    padding-bottom: 20px;
 	display: inline;
 	position: relative;
+    background-color: #e0e0e0;
     
 }
 
@@ -30,12 +32,16 @@
     float: right;
     width:400px;
     height: 300px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    box-shadow: 10px 10px 5px #888888;
     
 }
 #img2 {
     float: left;
     width: 500px;
     height: 300px;
+    box-shadow: 10px 10px 5px #888888;
 
 
 }

@@ -1,0 +1,53 @@
+﻿#oilchangecontentarea {
+    float:right;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 200px;
+    margin-left: 200px;
+    padding: 2px;
+	display: inline;
+	position: relative;
+    background-color: #e0e0e0;
+    
+}
+#overview{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 2px;
+    
+  
+}
+
+#overview h3 {
+    font-size: 25px;
+}
+#overview ul {
+    list-style-type: none;
+}
+#freecarwash {
+    font-size: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: auto;
+    text-align: center;
+    color: blue;
+
+}
+table tr td{
+    border-top: 2px dashed black;
+}
+table img{
+    width: 144px;
+    height: 220px;
+    padding: 2px;
+}
+.price {
+    font-size: 50px;
+}
+table h4{
+    margin-left: 10px;
+}
