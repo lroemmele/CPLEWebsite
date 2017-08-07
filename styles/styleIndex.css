@@ -8,6 +8,16 @@ body{
   
 }
 
+#popup{
+    width:400px;
+    height:400px;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: none;
+}
+
 header{
     background: #002400; /* Old browsers */
     background: -moz-linear-gradient(left, #002400 0%, #005700 17%, #008a00 33%, #52b152 67%, #83c783 83%, #b4ddb4 100%); /* FF3.6-15 */
@@ -272,13 +282,15 @@ footer{
 	color: white;
 	font-size: 10px; 
 	float:right;
-	width:80px;
+	width:100px;
 	padding:0px;
 	padding-right: 10px;
 	margin: auto;
 	margin-top: 5px;
+    margin-right: 10px;
 	text-align: right;
 	opacity: .4;
+   
 	
 }
 
