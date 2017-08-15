@@ -1,0 +1,174 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CPLE</title>
+    <link rel="stylesheet" type="text/css" href="styles/styleIndex.css">
+    <link rel="stylesheet" type="text/css" href="styles/stylecopons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="scripts/couponScript.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="img/cplelogo.png">
+        </div>
+
+        <div id="titlename">
+            <img src="img/title.png">
+
+        </div>
+
+    </header>
+    <nav>
+        <div id="navbuttons">
+            <ul>
+                <li><a href="index.html" title"home page">Home</a></li>
+                <li><a href="about.html" title"about page">About</a></li>
+                <li><a href="oilchange.html" title"oil change page">Oil Change</a></li>
+                <li><a href="detailing.html" title"detailing page">Detailing</a></li>
+                <li><a href="otherservices.html" title"other services">Other Services</a></li>
+                <li><a href="location.html" title"location">Location</a></li>
+                <li><a href="coupons.html" title"copons sign up">Coupons</a></li>
+                <li><a href="otherlinks.html" title"other links">Other Links</a></li>
+            </ul>
+        </div>
+
+        <div id="hours">
+            <ul>
+                <li><u><b>Monday</b></u> - <u><b>Friday</b></u></li>
+                <li>8AM to 6PM</li>
+                <li><u><b>Saturday</b></u></li>
+                <li>8AM to 5PM</li>
+                <li><u><b>Sunday</b></u></li>
+                <li>9AM to 4PM</li>
+            </ul>
+
+        </div>
+
+        <div id="phonenum">
+            <p>Call</p>
+            <p>215-996-4281</p>
+
+
+        </div>
+
+    </nav>
+
+    <main id="coponsContentArea">
+        <div id="mainContentArea">
+            <p id="couponMessage">
+                DON'T GET STUCK PAYING TOO MUCH.<br />
+                SIGN UP TO BECOME ONE OF OUR VIP MEMBERS<br />
+                AND START RECIVEING SPECAIL PROMOTIONS TODAY.
+            </p>
+            <form id="couponForm" method="POST" action="https://script.google.com/macros/s/AKfycbwjjk8DaoNV6F_fRPvj7vBhZRcL5AREMBrx9yb8ufLIVRUK70o/exec">
+                <fieldset>
+                    <p><label><span>First Name</span><input type="text" id="firstNameFeild" name"firstname" maxlength="25" placeholder="John" required/></label></p>
+                    <p><label><span>Last Name</span><input type="text" id="lastNameFeild" name"lastname" maxlength="25" placeholder="Smith" required/></label></p>
+                    <p><label><span>Street Address</span><input type="text" id="stAddressFeild" name"streetaddress" maxlength="50" placeholder="123 Broad St" required/></label></p>
+                    <p><label><span>City</span><input type="text" id="cityFeild" name"firstname" maxlength="25" placeholder="City name" required/></label>
+                        <label><span>State</span><input type="text" id="stateFeild" list="state_abbr" maxlength="2" required/>
+                            <datalist id="state_abbr">
+                                <option value="AL">
+                                <option value="AK">
+                                <option value="AZ">
+                                <option value="AR">
+                                <option value="CA">
+                                <option value="CO">
+                                <option value="CT">
+                                <option value="DE">
+                                <option value="FL">
+                                <option value="GA">
+                                <option value="HI">
+                                <option value="ID">
+                                <option value="IL">
+                                <option value="IN">
+                                <option value="IA">
+                                <option value="KS">
+                                <option value="KY">
+                                <option value="LA">
+                                <option value="ME">
+                                <option value="MD">
+                                <option value="MA">
+                                <option value="MI">
+                                <option value="MN">
+                                <option value="MS">
+                                <option value="MO">
+                                <option value="MT">
+                                <option value="NE">
+                                <option value="NV">
+                                <option value="NH">
+                                <option value="NJ">
+                                <option value="NM">
+                                <option value="NY">
+                                <option value="NC">
+                                <option value="ND">
+                                <option value="OH">
+                                <option value="OK">
+                                <option value="OR">
+                                <option value="PA">
+                                <option value="RI">
+                                <option value="SC">
+                                <option value="SD">
+                                <option value="TN">
+                                <option value="TX">
+                                <option value="UT">
+                                <option value="VT">
+                                <option value="VA">
+                                <option value="WA">
+                                <option value="WV">
+                                <option value="WI">
+                                <option value="WY">
+                           </datalist></label>
+                            <label><span>Zip Code</span><input type="number" id="zipField" name="zipcode" maxlength="10" placeholder="12345" required/></label></p>
+                    <p><label><span>Email</span><input type="email" id="emailFeild" name="email" maxlength="50" placeholder="email@exsample.com" required/></label></p>
+                    <p><label><span>Would You Like To Recevice Specail Promotions</span><input type="checkbox" id="promoConfirm" name="promoconfirm" /></label></p>
+                    <p><label><span>Would You Like To Recevice Coupons Via Email</span><input type="checkbox" id="couponConfirm" name="couponconfirm" /></label></p>
+                    <p><label><span>Enter Captcha In Text Field</span><input type="text" id="humanVerify" name="humanVerify" size="5" maxlength="5"  />
+                        <span id="captcha"><input type="text" id="captchaGen" size="5"/> </span>
+                        <span><button onclick="checkCaptcha()">Verify</button></span></label></p>
+                    <p><label><input type="submit" id="submitButton" name="submitButton" /></label></p>
+                </fieldset>
+            </form>
+        </div>
+        
+    </main>
+    <footer>
+
+        <div id="footerimg1">
+            <img src="img/castrolslogan.jpg">
+        </div>
+
+        <div id="footernavbuttons">
+            <ul>
+                <li><a href="index.html" title"home page">Home</a></li>
+                <li><a href="about.html" title"about page">About</a></li>
+                <li><a href="oilchange.html" title"oil change page">Oil Change</a></li>
+                <li><a href="detailing.html" title"detailing page">Detailing</a></li>
+                <li><a href="otherservices.html" title"other services">Other Services</a></li>
+                <li><a href="location.html" title"location">Location</a></li>
+                <li><a href="coupons.html" title"copons sign up">Coupons</a></li>
+                <li><a href="otherlinks.html" title"other links">Other Links</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <div id="bottomfooter">
+        <ul>
+            <li><a href="#">privacy policy</a></li>
+            <li>  |  </li>
+            <li><a href="#">terms of service</a></li>
+            <li>  |  </li>
+            <li><a href="#">sitemap</a></li>
+        </ul>
+        <p>&copy; 2017 Luke Roemmele</p>
+    </div>
+
+</body>
+
+</html>

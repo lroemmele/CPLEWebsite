@@ -161,8 +161,8 @@ nav{
 	
 }
 #homepageimg {
-	width:80%;
-	height:80%;
+	width:60%;
+	height:60%;
 	margin: auto;
 
 }
@@ -171,6 +171,18 @@ nav{
 	height: 100%;
 	margin: auto;
 	box-shadow: 10px 10px 5px #888888;
+}
+
+#videodiv{
+    margin:auto;
+    margin-top: 50px;
+}
+#videodiv video{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    display: block;
+
 }
 
 footer{

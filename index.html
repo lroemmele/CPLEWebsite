@@ -8,19 +8,7 @@
 	<!--[if lt IE 9]
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-    <script type="text/javascript">
-
-        var popUpDiv;
-        window.onload = function () {
-            popUpDiv = document.getElementById("popup");
-        }
-
-
-        function openPopUp() {
-            popUpDiv.style.display = "block";
-        }
-    </script>
-
+  
 </head>
 <body>
    
@@ -75,6 +63,12 @@
             <section id="homepageimg">
                 <img src="img/buildingpic.jpeg">
             </section>
+            <div id="videodiv">
+                <video width="320" height="240" autoplay controls>
+                    <source src="videos/gtxVideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </main>
         <footer>
 

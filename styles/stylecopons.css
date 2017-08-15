@@ -1,1 +1,36 @@
-﻿
+﻿#coponsContentArea{
+    float:right;
+	width: 75%;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 200px;
+    margin-left: 200px;
+    padding: 2px;
+	display: inline;
+	position: relative;
+ 
+}
+#mainContentArea{
+    background-color: white;
+    display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+#couponMessage{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+
+}
+label input{
+    margin-left: 10px;
+}
+#stateFeild{
+    width: 40px;
+}
+#zipField{
+    width: 100px;
+}
